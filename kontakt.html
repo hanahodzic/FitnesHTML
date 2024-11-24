@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitnes kontakt forma</title>
+</head>
+<body bgcolor="#f4f4f4">
+
+    <header>
+        <table width="100%" bgcolor="#4CAF50" align="center">
+            <tr>
+                <td align="left">
+                    <a href="index.html">
+                        <img src="logo.png" alt="Logo" width="170" height="100">
+                    </a>
+                </td>
+                <td>
+                    <h1><font color="white">Zdravlje i Fitnes</font></h1>
+                </td>
+            </tr>
+        </table>
+
+    <table width="100%" bgcolor="#333">
+        <tr>
+            <td align="center">
+                <ul>
+                    <li><a href="index.html"><font color="white">Početna</font></a></li>
+                    <li><a href="treninzi.html"><font color="white">Planovi Treninga</font></a></li>
+                    <li><a href="ishrana.html"><font color="white">Zdravi Recepti</font></a></li>
+                    <li><a href="mentalnoZdravlje.html"><font color="white">Mentalno Zdravlje</font></a></li>
+                    <li><a href="progres.html"><font color="white">Praćenje Napretka</font></a></li>
+                    <li><a href="blog.html"><font color="white">Blog</font></a></li>
+                    <li><a href="kontakt.html"><font color="white">Kontaktirajte nas</font></a></li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</header>
+
+    <main>
+    <table width="60%" bgcolor="white" border="1" align="center">
+        <tr>
+            <td>
+                <h2 align="center">Kontaktirajte nas!</h2>
+                <p align="center">Rado bih da čujem vaše mišljenje! Ispunite ovu formu.</p>
+                <form action="submit_form.php" method="POST">
+                    <table width="100%">
+                        <tr>
+                            <td align="right"><label for="name">Ime:</label></td>
+                            <td><input type="text" id="name" name="name" placeholder="Ime " width="100%"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td align="right"><label for="email">Email:</label></td>
+                            <td><input type="email" id="email" name="email" placeholder="Tvoja Email adresa " width="100%"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td align="right"><label for="subject">Naslov:</label></td>
+                            <td><input type="text" id="subject" name="subject" placeholder="Naslov poruke " width="100%"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td align="right"><label for="message">Poruka:</label></td>
+                            <td><textarea id="message" name="message" rows="5" placeholder="Tvoja poruka" width="100%"></textarea></td>
+                        </tr>
+                        
+                        <tr>
+                            <td align="right"><label for="phone">Broj telefona (Opcionalno):</label></td>
+                            <td><input type="tel" id="phone" name="phone" placeholder="Broj telefona" width="100%"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td align="right"><label>Spol:</label></td>
+                            <td>
+                                <input type="radio" id="male" name="gender" value="male"><label for="male">Muško</label>
+                                <input type="radio" id="female" name="gender" value="female"><label for="female">Žensko</label>
+                                <input type="radio" id="other" name="gender" value="other"><label for="other">Ostalo</label>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td align="right"><label for="agreement">Slažem se sa uvjetima korištenja :</label></td>
+                            <td><input type="checkbox" id="agreement" name="agreement"></td>
+                        </tr>
+                    
+                        <tr>
+                            <td align="center" colspan="2">
+                                <input type="submit" value="Pošalji!">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+    </table><br>
+    <div align="center">
+        <h3>Moja lokacija</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2877.4010153769605!2d18.372877411783822!3d43.84751627097297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758c912822c549d%3A0x63e6c2a51c967e33!2sMilana%20Preloga%2015%2C%20Sarajevo%2071000!5e0!3m2!1sbs!2sba!4v1730879867287!5m2!1sbs!2sba" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+</main><br>
+
+  <footer>
+        <table width="100%" bgcolor="#333">
+            <tr>
+                <td align="center">
+                    <p><font color="white">&copy; 2024 Zdravlje i Fitnes. Sva prava zadržana. Hana</font></p>
+                    <p><font color="white">Kontaktirajte me putem e-maila: <a href="mailto:hanasi.hodzic@gmail.com" style="color:white;">hanasi.hodzic@gmail.com</a></font></p>
+                </td>
+            </tr>
+        </table>
+    </footer>    
+
+</body>
+</html>
+
